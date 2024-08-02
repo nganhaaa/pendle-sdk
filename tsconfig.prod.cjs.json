@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "dist/cjs",
+      "composite": true,
+      "target": "es6",
+      "module": "CommonJS",
+    },
+    "include": ["src", "src/abis/**/*.json"] // Add this line
+}
