@@ -9,20 +9,21 @@ export const zero_address: string =
 export const euler_number = 2.718281828459045;
 
 // Mainnet
-// address to get underlying apy
+
 export const marketList = [
   "0xf9f9779d8ff604732eba9ad345e6a27ef5c2a9d6", //eEth
   "0x875f154f4ec93255beaea9367c3adf71cdcb4cc0" //aUSDC
 ];
 
+// address to get underlying apy?
 export const poolAddress = [
   "",
-  "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+  "0x794a61358D6845594F94dc1DB02A252b5b4814aD" //aUSDC pool
 ];
 
 export const tokenList = [
-  "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
-  "0x724dc807b04555b71ed48a6896b6f41593b8c637"
+  "0x35751007a407ca6feffe80b3cb397736d2cf4dbe", //eEth
+  "0x724dc807b04555b71ed48a6896b6f41593b8c637" //aUSDC
 ]
 
 // Testnet
